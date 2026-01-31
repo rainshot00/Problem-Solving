@@ -28,7 +28,7 @@ jobs:
 
       - name: Subtree pull
         run: |
-          git subtree pull --prefix=Codetree codetree main --squash
+          git subtree pull --prefix=Codetree codetree main
 
       - name: Push changes
         run: git push origin main
