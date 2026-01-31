@@ -4,6 +4,12 @@ name: Sync Codetree Subtree
 on:
   repository_dispatch:
     types: [codetree-updated]
+  push:
+    branches:
+      - main
+    # Codetree 폴더 내 변경사항은 push 이벤트가 트리거하지 않음
+    paths-ignore:
+      - 'Codetree/**'
 
 jobs:
   sync:
