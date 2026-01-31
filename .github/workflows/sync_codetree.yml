@@ -33,10 +33,6 @@ jobs:
       - name: Subtree pull from codetree-solution
         run: git subtree pull --prefix=Codetree codetree main
 
-      # 5️⃣ Remote main과 rebase (push 실패 방지)
-      - name: Pull latest remote changes
-        run: git pull origin main --rebase
-
-      # 6️⃣ Push changes to problem-solving main
+      # 5️⃣ Push changes to problem-solving main
       - name: Push changes
         run: git push origin main
