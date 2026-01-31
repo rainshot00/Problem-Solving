@@ -13,7 +13,11 @@ public class Main {
         char[][] arr = new char[r][c];
 
         for (int i = 0; i < r; i++) {
-            arr[i] = br.readLine().toCharArray();
+            StringTokenizer st2 = new StringTokenizer(br.readLine());
+
+            for (int k = 0; k < c; k++) {
+                arr[i][k] = st2.nextToken().charAt(0);
+            }
         }
 
         for (int i = 1; i < r - 1; i++) {
