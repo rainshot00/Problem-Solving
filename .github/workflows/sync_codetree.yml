@@ -1,0 +1,34 @@
+name: Sync Codetree Subtree
+
+# 이벤트는 codetree-solution repo에서 notify 이벤트
+on:
+  repository_dispatch:
+    types: [codetree-updated]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout problem-solving
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SYNC_TOKEN }}
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+      - name: Add codetree remote
+        run: |
+          git remote add codetree https://github.com/rainshot00/Codetree-Solution.git
+          git fetch codetree
+
+      - name: Subtree pull
+        run: |
+          git subtree pull --prefix=Codetree codetree main --squash
+
+      - name: Push changes
+        run: git push origin main
