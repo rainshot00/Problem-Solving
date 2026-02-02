@@ -1,19 +1,11 @@
 name: Sync Codetree Subtree
 
-# codetree-solution repo에서 dispatch 이벤트 발생 시 실행
 on:
-  repository_dispatch:
-    types: [codetree-updated]
-  push:
-    branches:
-      - main
-    # Codetree 폴더 내 변경사항은 push 이벤트가 트리거하지 않음
-    paths-ignore:
-      - 'Codetree/**'
+  schedule:
+    - cron: '0 21 * * *'  # UTC 21시 = KST 오전 6시
 
 jobs:
   sync:
-    if: github.event_name == 'repository_dispatch'
     runs-on: ubuntu-latest
 
     steps:
