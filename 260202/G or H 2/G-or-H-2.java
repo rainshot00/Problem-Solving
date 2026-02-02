@@ -33,7 +33,7 @@ public class Main {
 				else if (arr[ed] == 'H')
 					h++;
 
-				if (g == h && g != 0)
+				if ((g == h && g != 0) || (g == 0 && h >= 2) || (h == 0 && g >= 2))
 					ans = Math.max(ans, ed - st);
 			}
 		}
