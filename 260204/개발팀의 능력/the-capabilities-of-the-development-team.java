@@ -62,7 +62,10 @@ public class Main {
 
 		team(0);
 
-		System.out.println(ans);
+		if (ans == 987654321)
+			System.out.println(-1);
+		else
+			System.out.println(ans);
 	}
 
 }
