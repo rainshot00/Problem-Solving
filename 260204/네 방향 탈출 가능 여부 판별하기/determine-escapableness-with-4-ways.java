@@ -20,7 +20,6 @@ public class Main {
 
 		while (!q.isEmpty()) {
 			int[] pos = q.poll();
-			visited[pos[0]][pos[1]] = true;
 
 			if (pos[0] == n - 1 && pos[1] == m - 1)
 				return true;
@@ -35,6 +34,7 @@ public class Main {
 				if (arr[yy][xx] == 0 || visited[yy][xx])
 					continue;
 
+				visited[yy][xx] = true;
 				q.add(new int[] { yy, xx });
 			}
 		}
