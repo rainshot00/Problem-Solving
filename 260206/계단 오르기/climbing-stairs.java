@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
 public class Main {
 
@@ -12,10 +13,10 @@ public class Main {
 		else if (n == 0)
 			return 1;
 
-		if (dp[n] != 0)
+		if (dp[n] != -1)
 			return dp[n];
 
-		return dp[n] = stair(n - 2) + stair(n - 3);
+		return dp[n] = (stair(n - 2) + stair(n - 3)) % 10_007;
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -23,6 +24,7 @@ public class Main {
 
 		int n = Integer.parseInt(br.readLine());
 		dp = new int[n + 1];
+		Arrays.fill(dp, -1);
 
 		System.out.println(stair(n));
 	}
