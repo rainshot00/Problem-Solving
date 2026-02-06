@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class Main {
 
-	static int n, m;
+	static int n, m, ans;
 	static int[][] arr;
 	static int[] dy = { 1, 0, 0, -1 };
 	static int[] dx = { 0, 1, -1, 0 };
@@ -27,7 +27,7 @@ public class Main {
 			int cnt = now[2];
 
 			if (y == n - 1 && x == m - 1) {
-				System.out.println(cnt);
+				ans = cnt;
 				break;
 			}
 
@@ -54,6 +54,7 @@ public class Main {
 		n = Integer.parseInt(st.nextToken());
 		m = Integer.parseInt(st.nextToken());
 		arr = new int[n][m];
+		ans = -1;
 
 		for (int i = 0; i < n; i++) {
 			st = new StringTokenizer(br.readLine());
@@ -64,5 +65,7 @@ public class Main {
 		}
 
 		bfs();
+
+		System.out.println(ans);
 	}
 }
