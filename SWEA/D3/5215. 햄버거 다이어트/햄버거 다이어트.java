@@ -9,19 +9,6 @@ public class Solution {
 	static int[][] arr;
 	static boolean[] visited;
 
-	public static void hamburger(int idx, int val, int cal) {
-		if (cal > l)
-			return;
-
-		if (idx == n) {
-			ans = Math.max(ans, val);
-			return;
-		}
-
-		hamburger(idx + 1, val + arr[idx][0], cal + arr[idx][1]);
-		hamburger(idx + 1, val, cal);
-	}
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -44,9 +31,20 @@ public class Solution {
 				arr[i][1] = K;
 			}
 
-			ans = 0;
-			visited = new boolean[n];
-			hamburger(0, 0, 0);
+			int ans = -1;
+			for (int i = 0; i < (1 << n); i++) {
+				int val = 0, cal = 0;
+
+				for (int k = 0; k < n; k++) {
+					if ((i & (1 << k)) != 0) {
+						val += arr[k][0];
+						cal += arr[k][1];
+					}
+				}
+
+				if (cal <= l)
+					ans = Math.max(ans, val);
+			}
 
 			System.out.println("#" + testcase + " " + ans);
 		}
