@@ -59,10 +59,20 @@ public class Main {
 					dp[y][x][0] = max1;
 					dp[y][x][1] = min1;
 					dp[y][x][2] = diff1;
-				} else {
+				} else if (diff1 > diff2) {
 					dp[y][x][0] = max2;
 					dp[y][x][1] = min2;
 					dp[y][x][2] = diff2;
+				} else {
+					if (max1 <= max2) {
+						dp[y][x][0] = max1;
+						dp[y][x][1] = min1;
+						dp[y][x][2] = diff1;
+					} else {
+						dp[y][x][0] = max2;
+						dp[y][x][1] = min2;
+						dp[y][x][2] = diff2;
+					}
 				}
 			}
 		}
