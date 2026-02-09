@@ -10,20 +10,6 @@ public class Main {
 	static int[][] arr;
 	static int[][][] dp;
 
-	static int recursion(int y, int x) {
-		if (y == 0 || x == 0) {
-			return dp[y][x][2];
-		}
-
-		if (dp[y][x][2] != -1) {
-			return dp[y][x][2];
-		}
-
-		dp[y][x][0] = Math.max(Math.max(dp[y - 1][x][0], dp[y][x - 1][0]), arr[y][x]);
-		dp[y][x][1] = Math.min(Math.min(dp[y - 1][x][1], dp[y][x - 1][1]), arr[y][x]);
-		return dp[y][x][2] = dp[y][x][0] - dp[y][x][1];
-	}
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -49,19 +35,39 @@ public class Main {
 		dp[0][0][1] = arr[0][0]; // min
 		dp[0][0][2] = 0; // diff
 
-		for (int y = 1; y < n; y++) {
-			dp[y][0][0] = Math.max(dp[y - 1][0][0], arr[y][0]);
-			dp[y][0][1] = Math.min(dp[y - 1][0][1], arr[y][0]);
-			dp[y][0][2] = dp[y][0][0] - dp[y][0][1];
+		for (int y = 0; y < n; y++) {
+			for (int x = 0; x < n; x++) {
+				if (y == 0 && x == 0)
+					continue;
+
+				int max1 = Integer.MAX_VALUE, min1 = Integer.MAX_VALUE, diff1 = Integer.MAX_VALUE;
+				int max2 = Integer.MAX_VALUE, min2 = Integer.MAX_VALUE, diff2 = Integer.MAX_VALUE;
+
+				if (y > 0) {
+					max1 = Math.max(dp[y - 1][x][0], arr[y][x]);
+					min1 = Math.min(dp[y - 1][x][1], arr[y][x]);
+					diff1 = max1 - min1;
+				}
+
+				if (x > 0) {
+					max2 = Math.max(dp[y][x - 1][0], arr[y][x]);
+					min2 = Math.min(dp[y][x - 1][1], arr[y][x]);
+					diff2 = max2 - min2;
+				}
+
+				if (diff1 < diff2) {
+					dp[y][x][0] = max1;
+					dp[y][x][1] = min1;
+					dp[y][x][2] = diff1;
+				} else {
+					dp[y][x][0] = max2;
+					dp[y][x][1] = min2;
+					dp[y][x][2] = diff2;
+				}
+			}
 		}
 
-		for (int x = 1; x < n; x++) {
-			dp[0][x][0] = Math.max(dp[0][x - 1][0], arr[0][x]);
-			dp[0][x][1] = Math.min(dp[0][x - 1][1], arr[0][x]);
-			dp[0][x][2] = dp[0][x][0] - dp[0][x][1];
-		}
-
-		System.out.println(recursion(n - 1, n - 1));
+		System.out.println(dp[n - 1][n - 1][2]);
 	}
 
 }
