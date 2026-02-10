@@ -35,7 +35,7 @@ public class Main {
 		dp[0][0] = 1;
 
 		for (int y = 1; y < n; y++) {
-			for (int x = 1; x < n; x++) {
+			for (int x = 1; x < m; x++) {
 				for (int yy = 0; yy < y; yy++) {
 					for (int xx = 0; xx < x; xx++) {
 						if (dp[yy][xx] != -1 && arr[yy][xx] < arr[y][x])
