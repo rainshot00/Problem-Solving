@@ -13,6 +13,7 @@ public class Main {
 		int n = Integer.parseInt(st.nextToken());
 		int m = Integer.parseInt(st.nextToken());
 		TreeSet<Integer> s = new TreeSet<>();
+		int ans = 0;
 
 		for (int i = 1; i <= m; i++) {
 			s.add(i);
@@ -23,12 +24,14 @@ public class Main {
 			int num = Integer.parseInt(st.nextToken());
 
 			if (s.floor(num) == null) {
-				System.out.println(i);
 				break;
 			}
 
 			s.remove(s.floor(num));
+			ans++;
 		}
+
+		System.out.println(ans);
 	}
 
 }
