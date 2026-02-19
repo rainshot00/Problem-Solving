@@ -26,7 +26,7 @@ public class Main {
 			psum[i] = psum[i - 1] + arr[i];
 		}
 
-		for (int i = 1; i <= n - k; i++) {
+		for (int i = 1; i <= n - k + 1; i++) {
 			int res = psum[i + k - 1] - psum[i] + arr[i];
 			ans = Math.min(ans, res);
 		}
