@@ -1,61 +1,46 @@
-def find(x):
-    if parent[x] != x:
-        parent[x] = find(parent[x])
-
-    return parent[x]
-
-
-def union(x, y):
-    xx = find(x)
-    yy = find(y)
-
-    if xx == yy:
-        return
-
-    if rank[xx] < rank[yy]:
-        xx, yy = yy, xx
-
-    parent[yy] = xx
-
-    if rank[xx] == rank[yy]:
-        rank[xx] += 1
-
-
-def kruskal(edge):
-    cnt, weight = 0, 0
-    edge.sort(key=lambda x: x[2])
-
-    for u, v, w in edge:
-        if find(u) != find(v):
-            union(u, v)
-            cnt += 1
-            weight += w
-
-            if cnt == (V - 1):
-                return weight
-
+import heapq
 
 t = int(input())
 answer = []
 
 for testcase in range(1, t + 1):
-    V = int(input())
-    X = list(map(int, input().split()))
-    Y = list(map(int, input().split()))
+    n = int(input())
+    x_pos = list(map(int, input().split()))
+    y_pos = list(map(int, input().split()))
     tax = float(input())
-    edge = []
 
-    parent = [i for i in range(V)]
-    rank = [0] * V
+    arr = [[] for _ in range(n)]
+    visited = [False] * n
 
-    for i in range(V):
-        for k in range(V):
+    for i in range(n):
+        for k in range(n):
             if i == k:
                 continue
 
-            weight = ((X[i] - X[k]) ** 2 + (Y[i] - Y[k]) ** 2)
-            edge.append([i, k, weight])
+            dist = (x_pos[i] - x_pos[k]) ** 2 + (y_pos[i] - y_pos[k]) ** 2
+            arr[i].append((k, dist))
+            arr[k].append((i, dist))
 
-    answer.append(f'#{testcase} {round(tax * kruskal(edge))}\n')
+    pq = [(0, 0)]
+    cnt, weight = 0, 0
 
-print(''.join(answer))
+    while pq:
+        w, now = heapq.heappop(pq)
+
+        if visited[now]:
+            continue
+
+        visited[now] = True
+        weight += w
+        cnt += 1
+
+        if cnt == n:
+            break
+
+        for next_vertex, next_weight in arr[now]:
+            if not visited[next_vertex]:
+                heapq.heappush(pq, (next_weight, next_vertex))
+
+    answer.append(f'#{testcase} {round(tax * weight)}')
+
+print('\n'.join(answer))
