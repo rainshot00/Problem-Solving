@@ -1,49 +1,41 @@
-def find(x):
-    if parent[x] != x:
-        parent[x] = find(parent[x])
-
-    return parent[x]
-
-
-def union(x, y):
-    xx = find(x)
-    yy = find(y)
-
-    if xx == yy:
-        return
-
-    if rank[xx] < rank[yy]:
-        xx, yy = yy, xx
-
-    parent[yy] = xx
-
-    if rank[xx] == rank[yy]:
-        rank[xx] += 1
-
-
-def kruskal(edge):
-    cnt, weight = 0, 0
-    edge.sort(key=lambda x: x[2])
-
-    for u, v, w in edge:
-        if find(u) != find(v):
-            union(u, v)
-            cnt += 1
-            weight += w
-
-            if cnt == (V - 1):
-                return weight
-
+# from queue import PriorityQueue
+# PriorityQueue = thread-safe -> slow
+# heapq = thread-unsafe -> fast
+import heapq
 
 t = int(input())
 answer = []
 
 for testcase in range(1, t + 1):
     V, E = map(int, input().split())
-    edge = [list(map(int, input().split())) for _ in range(E)]
-    parent = [i for i in range(V + 1)]
-    rank = [0] * (V + 1)
+    arr = [[] for _ in range(V + 1)]
+    visited = [False] * (V + 1)
 
-    answer.append(f'#{testcase} {kruskal(edge)}\n')
+    for _ in range(E):
+        u, v, w = map(int, input().split())
+        arr[u].append((v, w))
+        arr[v].append((u, w))
 
-print(''.join(answer))
+    pq = [(0, 1)]
+    cnt, weight = 0, 0
+
+    while pq:
+        w, now = heapq.heappop(pq)
+
+        if visited[now]:
+            continue
+
+        visited[now] = True
+        weight += w
+        cnt += 1
+
+        if cnt == V:
+            break
+
+        for next_vertex, next_weight in arr[now]:
+            if not visited[next_vertex]:
+                heapq.heappush(pq, (next_weight, next_vertex))
+
+    answer.append(f'#{testcase} {weight}')
+
+print('\n'.join(answer))
