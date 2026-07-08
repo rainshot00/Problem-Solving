@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/rainshot00/LeetCode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rainshot00/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/rainshot00/LeetCode/tree/master/0058-length-of-last-word) |
+| [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/rainshot00/LeetCode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 ## Trie
 |  |
 | ------- |
@@ -70,4 +71,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/rainshot00/LeetCode/tree/master/0011-container-with-most-water) |
+| [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/rainshot00/LeetCode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 <!---LeetCode Topics End-->
