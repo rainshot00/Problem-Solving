@@ -13,11 +13,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/rainshot00/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/rainshot00/LeetCode/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/rainshot00/LeetCode/tree/master/0066-plus-one) |
+| [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/rainshot00/LeetCode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/rainshot00/LeetCode/tree/master/0013-roman-to-integer) |
+| [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 ## Linked List
 |  |
 | ------- |
@@ -71,5 +73,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/rainshot00/LeetCode/tree/master/0011-container-with-most-water) |
+| [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/rainshot00/LeetCode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 <!---LeetCode Topics End-->
