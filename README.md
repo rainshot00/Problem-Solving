@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/rainshot00/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/rainshot00/LeetCode/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/rainshot00/LeetCode/tree/master/0066-plus-one) |
+| [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/rainshot00/LeetCode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rainshot00/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/rainshot00/LeetCode/tree/master/0058-length-of-last-word) |
+| [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 | [0316-remove-duplicate-letters](https://github.com/rainshot00/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/rainshot00/LeetCode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -108,9 +110,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/rainshot00/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/rainshot00/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
