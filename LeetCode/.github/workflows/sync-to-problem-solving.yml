@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
 
+concurrency:
+  group: sync-to-problem-solving
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
