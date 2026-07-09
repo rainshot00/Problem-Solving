@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/rainshot00/LeetCode/tree/master/0066-plus-one) |
 | [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
+| [0200-number-of-islands](https://github.com/rainshot00/LeetCode/tree/master/0200-number-of-islands) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Hash Table
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/rainshot00/LeetCode/tree/master/0200-number-of-islands) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Graph Theory
 |  |
@@ -123,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/rainshot00/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/rainshot00/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/rainshot00/LeetCode/tree/master/0113-path-sum-ii) |
+| [0200-number-of-islands](https://github.com/rainshot00/LeetCode/tree/master/0200-number-of-islands) |
 ## Binary Tree
 |  |
 | ------- |
@@ -142,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/rainshot00/LeetCode/tree/master/0200-number-of-islands) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -150,4 +154,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/rainshot00/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/rainshot00/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/rainshot00/LeetCode/tree/master/0112-path-sum) |
+| [0200-number-of-islands](https://github.com/rainshot00/LeetCode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
