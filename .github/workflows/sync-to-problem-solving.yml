@@ -8,32 +8,26 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout LeetCode repo
-        uses: actions/checkout@v4
-        with:
-          path: LeetCode
-
       - name: Checkout Problem-Solving repo
         uses: actions/checkout@v4
         with:
           repository: rainshot00/Problem-Solving
           token: ${{ secrets.PS_REPO_TOKEN }}
-          path: Problem-Solving
+          fetch-depth: 0
 
-      - name: Sync files into LeetCode folder
+      - name: Configure git
         run: |
-          mkdir -p Problem-Solving/LeetCode
-          rsync -av --delete LeetCode/ Problem-Solving/LeetCode/ --exclude='.git'
-
-      - name: Commit and push
-        run: |
-          cd Problem-Solving
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add LeetCode
-          if git diff --staged --quiet; then
-            echo "변경 사항 없음"
-          else
-            git commit -m "Sync: rainshot00/LeetCode 최신 커밋 반영"
-            git push
-          fi
+
+      - name: Add LeetCode remote and fetch
+        run: |
+          git remote add leetcode https://x-access-token:${{ secrets.PS_REPO_TOKEN }}@github.com/rainshot00/LeetCode.git
+          git fetch leetcode main
+
+      - name: Subtree pull (원본 커밋 그대로 병합)
+        run: |
+          git subtree pull --prefix=LeetCode leetcode main -m "Sync: rainshot00/LeetCode 최신 커밋 반영" --no-edit
+
+      - name: Push
+        run: git push origin main
