@@ -27,7 +27,7 @@ jobs:
 
       - name: Subtree pull (원본 커밋 그대로 병합)
         run: |
-          git subtree pull --prefix=LeetCode leetcode main -m "Sync: rainshot00/LeetCode 최신 커밋 반영" --no-edit
+          git subtree pull --prefix=LeetCode leetcode main -m "Sync: rainshot00/LeetCode 최신 커밋 반영"
 
       - name: Push
         run: git push origin main
