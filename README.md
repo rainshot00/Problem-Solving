@@ -108,17 +108,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/rainshot00/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/rainshot00/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rainshot00/LeetCode/tree/master/0101-symmetric-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/rainshot00/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/rainshot00/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rainshot00/LeetCode/tree/master/0101-symmetric-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/rainshot00/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/rainshot00/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rainshot00/LeetCode/tree/master/0101-symmetric-tree) |
 ## Backtracking
 |  |
 | ------- |
@@ -131,4 +134,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/rainshot00/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rainshot00/LeetCode/tree/master/0101-symmetric-tree) |
 <!---LeetCode Topics End-->
