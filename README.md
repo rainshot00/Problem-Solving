@@ -15,12 +15,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/rainshot00/LeetCode/tree/master/0066-plus-one) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/rainshot00/LeetCode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/rainshot00/LeetCode/tree/master/0013-roman-to-integer) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Linked List
 |  |
 | ------- |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/rainshot00/LeetCode/tree/master/0035-search-insert-position) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Greedy
 |  |
 | ------- |
@@ -89,4 +92,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/rainshot00/LeetCode/tree/master/0316-remove-duplicate-letters) |
+## Union-Find
+|  |
+| ------- |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+## Graph Theory
+|  |
+| ------- |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 <!---LeetCode Topics End-->
