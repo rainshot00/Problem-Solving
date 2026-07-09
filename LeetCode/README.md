@@ -13,14 +13,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/rainshot00/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/rainshot00/LeetCode/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/rainshot00/LeetCode/tree/master/0066-plus-one) |
+| [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/rainshot00/LeetCode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/rainshot00/LeetCode/tree/master/0013-roman-to-integer) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Linked List
 |  |
 | ------- |
@@ -46,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/rainshot00/LeetCode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rainshot00/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/rainshot00/LeetCode/tree/master/0058-length-of-last-word) |
+| [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 | [0316-remove-duplicate-letters](https://github.com/rainshot00/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/rainshot00/LeetCode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -57,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/rainshot00/LeetCode/tree/master/0020-valid-parentheses) |
+| [0094-binary-tree-inorder-traversal](https://github.com/rainshot00/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0316-remove-duplicate-letters](https://github.com/rainshot00/LeetCode/tree/master/0316-remove-duplicate-letters) |
 ## Two Pointers
 |  |
@@ -73,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/rainshot00/LeetCode/tree/master/0035-search-insert-position) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Greedy
 |  |
 | ------- |
@@ -89,4 +95,52 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/rainshot00/LeetCode/tree/master/0316-remove-duplicate-letters) |
+## Union-Find
+|  |
+| ------- |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+## Graph Theory
+|  |
+| ------- |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+## Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rainshot00/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/rainshot00/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rainshot00/LeetCode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/rainshot00/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/rainshot00/LeetCode/tree/master/0112-path-sum) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
+| [0094-binary-tree-inorder-traversal](https://github.com/rainshot00/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/rainshot00/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rainshot00/LeetCode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/rainshot00/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/rainshot00/LeetCode/tree/master/0112-path-sum) |
+## Binary Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/rainshot00/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/rainshot00/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rainshot00/LeetCode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/rainshot00/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/rainshot00/LeetCode/tree/master/0112-path-sum) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/rainshot00/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/rainshot00/LeetCode/tree/master/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/rainshot00/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/rainshot00/LeetCode/tree/master/0112-path-sum) |
 <!---LeetCode Topics End-->
