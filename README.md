@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/rainshot00/LeetCode/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/rainshot00/LeetCode/tree/master/0463-island-perimeter) |
+| [0746-min-cost-climbing-stairs](https://github.com/rainshot00/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Hash Table
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0119-pascals-triangle-ii](https://github.com/rainshot00/LeetCode/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rainshot00/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0509-fibonacci-number](https://github.com/rainshot00/LeetCode/tree/master/0509-fibonacci-number) |
+| [0746-min-cost-climbing-stairs](https://github.com/rainshot00/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 ## Memoization
 |  |
 | ------- |
