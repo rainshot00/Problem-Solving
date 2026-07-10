@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/rainshot00/LeetCode/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/rainshot00/LeetCode/tree/master/0463-island-perimeter) |
+| [0485-max-consecutive-ones](https://github.com/rainshot00/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0746-min-cost-climbing-stairs](https://github.com/rainshot00/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1470-shuffle-the-array](https://github.com/rainshot00/LeetCode/tree/master/1470-shuffle-the-array) |
