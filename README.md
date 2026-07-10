@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/rainshot00/LeetCode/tree/master/0463-island-perimeter) |
 | [0746-min-cost-climbing-stairs](https://github.com/rainshot00/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
+| [1929-concatenation-of-array](https://github.com/rainshot00/LeetCode/tree/master/1929-concatenation-of-array) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Hash Table
 |  |
@@ -183,4 +184,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/rainshot00/LeetCode/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/rainshot00/LeetCode/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/rainshot00/LeetCode/tree/master/1137-n-th-tribonacci-number) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/rainshot00/LeetCode/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
