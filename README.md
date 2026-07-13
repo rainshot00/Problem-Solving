@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/rainshot00/LeetCode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/rainshot00/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/rainshot00/LeetCode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/rainshot00/LeetCode/tree/master/0242-valid-anagram) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Linked List
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/rainshot00/LeetCode/tree/master/0058-length-of-last-word) |
 | [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
+| [0242-valid-anagram](https://github.com/rainshot00/LeetCode/tree/master/0242-valid-anagram) |
 | [0316-remove-duplicate-letters](https://github.com/rainshot00/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/rainshot00/LeetCode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 ## Trie
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/rainshot00/LeetCode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 | [0217-contains-duplicate](https://github.com/rainshot00/LeetCode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/rainshot00/LeetCode/tree/master/0242-valid-anagram) |
 ## Monotonic Stack
 |  |
 | ------- |
