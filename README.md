@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/rainshot00/LeetCode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/rainshot00/LeetCode/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rainshot00/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0169-majority-element](https://github.com/rainshot00/LeetCode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/rainshot00/LeetCode/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/rainshot00/LeetCode/tree/master/0463-island-perimeter) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/rainshot00/LeetCode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/rainshot00/LeetCode/tree/master/0013-roman-to-integer) |
+| [0169-majority-element](https://github.com/rainshot00/LeetCode/tree/master/0169-majority-element) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/rainshot00/LeetCode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Linked List
@@ -115,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/rainshot00/LeetCode/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/rainshot00/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/rainshot00/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/rainshot00/LeetCode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 ## Monotonic Stack
 |  |
@@ -202,4 +205,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1929-concatenation-of-array](https://github.com/rainshot00/LeetCode/tree/master/1929-concatenation-of-array) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/rainshot00/LeetCode/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/rainshot00/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
