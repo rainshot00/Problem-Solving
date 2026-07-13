@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/rainshot00/LeetCode/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/rainshot00/LeetCode/tree/master/0066-plus-one) |
 | [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
+| [0088-merge-sorted-array](https://github.com/rainshot00/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/rainshot00/LeetCode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/rainshot00/LeetCode/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rainshot00/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rainshot00/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/rainshot00/LeetCode/tree/master/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rainshot00/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0088-merge-sorted-array](https://github.com/rainshot00/LeetCode/tree/master/0088-merge-sorted-array) |
 ## String Matching
 |  |
 | ------- |
@@ -109,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0016-3sum-closest](https://github.com/rainshot00/LeetCode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/rainshot00/LeetCode/tree/master/0018-4sum) |
+| [0088-merge-sorted-array](https://github.com/rainshot00/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 ## Monotonic Stack
 |  |
