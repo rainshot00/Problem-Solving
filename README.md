@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rainshot00/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/rainshot00/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/rainshot00/LeetCode/tree/master/0035-search-insert-position) |
+| [0055-jump-game](https://github.com/rainshot00/LeetCode/tree/master/0055-jump-game) |
 | [0066-plus-one](https://github.com/rainshot00/LeetCode/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/rainshot00/LeetCode/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/rainshot00/LeetCode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/rainshot00/LeetCode/tree/master/0055-jump-game) |
 | [0179-largest-number](https://github.com/rainshot00/LeetCode/tree/master/0179-largest-number) |
 | [0316-remove-duplicate-letters](https://github.com/rainshot00/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/rainshot00/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/rainshot00/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/rainshot00/LeetCode/tree/master/0022-generate-parentheses) |
+| [0055-jump-game](https://github.com/rainshot00/LeetCode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/rainshot00/LeetCode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/rainshot00/LeetCode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/rainshot00/LeetCode/tree/master/0119-pascals-triangle-ii) |
