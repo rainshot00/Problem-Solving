@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/rainshot00/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/rainshot00/LeetCode/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/rainshot00/LeetCode/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/rainshot00/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/rainshot00/LeetCode/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/rainshot00/LeetCode/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/rainshot00/LeetCode/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/rainshot00/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/rainshot00/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/rainshot00/LeetCode/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/rainshot00/LeetCode/tree/master/0463-island-perimeter) |
@@ -226,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/rainshot00/LeetCode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/rainshot00/LeetCode/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/rainshot00/LeetCode/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/rainshot00/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/rainshot00/LeetCode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/rainshot00/LeetCode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/rainshot00/LeetCode/tree/master/0119-pascals-triangle-ii) |
