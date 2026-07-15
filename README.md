@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/rainshot00/LeetCode/tree/master/0509-fibonacci-number) |
 | [1025-divisor-game](https://github.com/rainshot00/LeetCode/tree/master/1025-divisor-game) |
 | [1137-n-th-tribonacci-number](https://github.com/rainshot00/LeetCode/tree/master/1137-n-th-tribonacci-number) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/rainshot00/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Recursion
 |  |
 | ------- |
@@ -260,4 +261,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1025-divisor-game](https://github.com/rainshot00/LeetCode/tree/master/1025-divisor-game) |
+## Number Theory
+|  |
+| ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/rainshot00/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
